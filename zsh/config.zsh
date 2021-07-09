@@ -26,3 +26,6 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:*:default' menu select=2
 #################################  OTHERS  #################################
 eval "$(starship init zsh)"
+
+alias console=/dev/tty.usbserial-AB0JXYDL
+alias e=nvim
